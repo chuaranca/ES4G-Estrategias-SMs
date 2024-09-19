@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +16,52 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide Prueba 1</section>
-				<section>Slide Prueba 2</section>
+				<section data-transition="convex">
+					<h2>1ra Sincronización de SMs</h2>
+					<p>Chayanne Huaranca</p>
+					<small>03/09/2024</small>
+				</section>
+				<section data-transition="convex">
+					<p>La idea principal consiste en presentar los distintos puntos de dolor asociados a la etapa de <b>REFINAMIENTO</b> y a su vez mostrar posibles alternativas de solución para nuestra Factoría en el BBVA.</p>
+				</section>
+				<section data-transition="convex">
+					<section>
+						<h3>Puntos de dolor expuestos</h3>
+						<img src="https://viapublicidad.com/wp-content/uploads/shutterstock_192448052-1-scaled.jpg" alt="img-punto-dolor">
+					</section>
+					<section>
+						<ol>
+							<li>Un SM puede llegar a refinar varios proyectos a la vez.</li>
+							<li>La necesidad plasmada en el canvas no está bien definida y/o aterrizada</li>
+							<li>La fecha de los refinamientos siempre se dan en los últimos sprints</li>
+							<li>El proceso de onboarding quita tiempo y las perspectivas suelen ser distintas</li>
+							<li>Negocio siempre solicita reducir FTEs</li>
+						</ol>	
+					</section>
+				</section>
+				<section data-transition="convex">
+					<section>
+						<h3>Propuestas y/o iniciativas</h3>
+					</section>
+					<section data-transition="convex">
+						<h3>Metodología Peer Teaching o Aprendizaje entre pares</h3>
+						<div style="display: flex;">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores delectus debitis aliquid excepturi consequuntur. Reiciendis assumenda aliquam, tenetur, dolores libero perferendis id pariatur corrupti iste totam a, impedit quas!</p>
+							<img src="https://recla.org/wp-content/uploads/2023/07/aplicando-la-ensenanza-entre-pares.webp" alt="aprendizaje-pares">
+						</div>
+					</section>
+					<section data-transition="convex">
+						<h3>Ideación 2.0</h3>
+						<p>En este punto, comentar de lo que trata ideación 2.0:
+							Mostrar la propuesta de Dante o mejorarla.
+							Comentar los datos de entrada y los datos de salida.
+							Proponer que por lo menos para los proyectos de nuestra factoría esto sea un proceso formal y los datos de entrada obligatorios.
+							Iniciar un piloto, para este caso propner el roadmap de EDC e indicar las ideaciones.
+							Proponer que la distribución de temas y que el impulso lo debe de realizar cada Scrum Master.
+						</p>
+					</section>
+				</section>
+				
 			</div>
 		</div>
 
@@ -31,6 +75,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				backgroundTransition: 'zoom',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
