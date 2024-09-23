@@ -7,9 +7,6 @@
 
 Presentación a modo de guía para la primera sincronización de SMs, en el cual se busca puntos de mojora para nuestra factoría.
 
----
-### Referencias
-
 --- 
 <div align="center">
   Chayanne Huaranca
